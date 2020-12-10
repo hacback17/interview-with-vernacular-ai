@@ -3,10 +3,12 @@
 ### 1. Docker 
 
 ### To run the Dockerfile:
-#### mdkir image1
-#### cd image1
-#### docker build .
-#### docker run -it --name <custom-container-name> <image-id> bash
+```bash
+mdkir image1
+cd image1
+docker build .
+docker run -it --name <custom-container-name> <image-id> bash
+```
 
 
 ### 2. Auditing Hardware
