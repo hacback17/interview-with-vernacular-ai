@@ -13,7 +13,7 @@ docker run -it --name <custom-container-name> <image-id> bash
 
 ### 2. Auditing Hardware
 #### My response to your eigth question: Networking - Network Firewall (Allowed Ports & Protocols), 
-#### There is no way to reliably audit network firewall rules directly from a device behind the firewall. However, one could use Nmap to do so if reliability isn't a problem.
+#### I couldn't find a reliable way to audit network firewall rules directly from a device behind the firewall. However, one could use Nmap to do so if reliability isn't a problem.
 #### Otherwise, I have write a bash script to audit hardware with all the given points - sysaudit.sh
 
 
